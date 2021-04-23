@@ -1512,6 +1512,20 @@
 }
 
 @media only screen and (max-width: 479px) {
+    .mt-half ul li img {
+        width: 100px; 
+        height: 100px;
+    }
+
+    .left-mob {
+        float: none;
+    }
+
+    .btn-add-to-cart {
+        float: none;
+        width: 100%;
+    }
+
     .header-cart .dropdown-menu {
         width: 290px;
         left: 50%;
