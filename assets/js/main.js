@@ -1,26 +1,3 @@
-/******************************
-
-INDEX:
-
-    s00 - Predefined Variables
-    s01 - Nice Select Init
-    s02 - Main Navigation Menu
-    s03 - Image Background Settings
-    s04 - Primary Slider Settings
-    s05 - Elements Spacing & Classes
-    s06 - Elements Carousel
-    s07 - Tooltips
-    s08 - Product Gallery with Thumbnails
-    s09 - Testimonial Carousel
-    s10 - Scroll to Top JS
-    s11 - Interactive Behaviour
-    s12 - Instagram Settings
-    s13 - MailChimp Settings
-
-
-
-******************************/
-
 (function($) {
 
     "use strict";
