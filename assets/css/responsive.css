@@ -1527,11 +1527,11 @@
     }
 
     .header-cart .dropdown-menu {
-        width: 290px;
-        left: 50%;
-        -webkit-transform: translateX(-44%);
+        width: 350px;
+        margin-left: 10px;
+        /*-webkit-transform: translateX(-44%);
         -ms-transform: translateX(-44%);
-        transform: translateX(-44%);
+        transform: translateX(-44%);*/
     }
 
     .header-cart .dropdown-menu.open {
