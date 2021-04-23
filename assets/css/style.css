@@ -4,6 +4,39 @@
 /************************************************************
     c00 - Base - Global
 *************************************************************/
+.list-widget .list-group>p {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    /*margin: 5px 0;*/
+}
+
+.list-widget .list-group > p > label {
+    margin-left: 10px;
+}
+
+.list-widget .list-group > p > input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+}
+
+.list-widget .list-group > p > input[type=checkbox]:hover,
+.list-widget .list-group>p:hover,
+.list-widget .list-group>p:focus {
+    color: #cc2121;
+}
+
+.list-widget .list-group>p:hover::before,
+.list-widget .list-group>p:focus::before {
+    color: white;
+}
+
+.list-widget .list-group>p::before {
+    -webkit-transition: all 0.7s cubic-bezier(0.2, 1, 0.22, 1);
+    -o-transition: all 0.7s cubic-bezier(0.2, 1, 0.22, 1);
+    transition: all 0.7s cubic-bezier(0.2, 1, 0.22, 1);
+}
 
 .boder-bottom {
     border-bottom: 1px solid #f0f0f0;
